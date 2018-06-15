@@ -137,7 +137,7 @@ header{
 .container_inside{
     border:var(--obramowanie);
        display: flex;
-  flex-direction: row;
+  flex-direction: column;
      font-family: 'Lato';
     font-weight: 900; 
     justify-content: center;
@@ -155,6 +155,7 @@ header{
 .big_circle{
     position: absolute;
     top:20%;
+    left:36%;
     border-radius:50%;
     border: dotted;
     border-color: white;
@@ -182,29 +183,80 @@ header{
 /* ------------------------------------------------------------------- */
 /* ------------------------------------------------------------------- */
 /* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* ---------------------  Z PASJI DO   ------------------------------- */
+/* ------------------------------------------------------------------- */
+
 
 
 .one_row_1{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+   height:40px;
+    
+ 
+    
+    
 }
 
 
 
 .box_zpasji{
-   
-   padding-left:10px;
+  position: relative;
+    left:-100px;
+padding-left:10px;
     padding-right: 10px;
-    height:11vh;
+    padding-top: 20px;
+  
+    
+   
+    height:8vh;
+    width:40vh;
+    
     background-color: white;
      color:#181C20;
      font-family: 'Lato';
     font-weight: 900; 
-    font-size: 9vh;
+    font-size: 11.8vh;
     box-sizing:content-box;
 }
 
+
+.txt_zpasji{
+    
+    position: relative;
+    top:-65%;
+}
+
+
+
+
 .box_do{
+    position: relative;
+     left:-100px;
    color: white;
     font-size: 8vh;
     box-sizing: border-box;
@@ -212,10 +264,92 @@ header{
     
 }
 
+.txt_do{
+    position: relative;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* ---------------------  SPORTU   ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+.one_row_2{
+      /* border:var(--obramowanie);*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ 
+    
+    
+}
+
+.box_sportu{
+  position: relative;
+      left:30px;
+     
+    
+    
+  
+}
+
+
+.txt_sportu{
+        color: white;
+    font-size:22vh;
+    padding: -10px;
+    
+    
+    
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* ---------------------  TRESC OPIS   ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+
+.one_row_3{
+      /* border:var(--obramowanie);*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ 
+    
+    
+}
+
+.box_tresc{
+    position: relative;
+    top:-18px;
+    left:70px;
+}
+
+
+.txt_tresc{
+    text-align: left;
+    font-weight: 500; 
+    font-size:2vh;
+    color:white;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* --------------------- BUTTON ------------------------------- */
+/* ------------------------------------------------------------------- */
 
 
 
 
+
+
+
+.one_row_4{
+    
+}
 
 
 
