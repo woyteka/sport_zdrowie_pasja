@@ -51,6 +51,18 @@
 }
 
 
+@media all and (min-width:481px and max-width:800px){
+    
+    
+}
+
+
+
+
+@media all and (min-width:801px and max-width:1366px){
+    
+    
+}
 
 
 
@@ -68,13 +80,7 @@
 
 
 
-
-
-
-/* ----------SZEROKOŚĆ MAX 480px---------------- */
-
-
-@media all and (max-width:1279px)
+@media all and (min-width:1367px)
     
 {
     
