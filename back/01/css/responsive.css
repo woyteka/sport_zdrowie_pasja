@@ -1,0 +1,102 @@
+
+/* ----------SZEROKOŚĆ MAX 480px---------------- */
+
+
+@media all and (max-width:480px)
+{
+    
+    
+    .adres{
+        display: none;
+    }   
+    
+      /* ----------Ustawienia dla białego footera pojawiającego się poniżej 480px---------------- */
+    
+    footer{
+  background-color: white;
+       justify-content: flex-start;
+}
+    
+
+    
+ .adres_footer{
+     z-index: 5;
+    align-self: center;
+    display: flex;
+   
+    flex-direction: row;
+   font-family: 'Lato';
+    font-weight: 700;
+    border:var(--obramowanie);
+  width:230px;
+    color:black;
+     text-align: left;
+   
+    font-size:14px;
+   
+}
+
+   
+    .facebook_icon_footer{
+        padding-top: 9px;
+        z-index: 7;
+        display: flex;
+       padding-left: 35%;
+    }  
+    
+    
+    
+    
+    
+}
+
+
+@media all and (min-width:481px and max-width:799px){
+    
+    
+}
+
+
+
+
+@media all and (min-width:800px and max-width:1366px){
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:1367px)
+    
+{
+    
+    
+/* ----------Mniejsza odlełgość headera od krawędzi po zmniejszeniu szer. do 1279px---------------- */    
+    
+    .container{
+        display: flex;
+         justify-content: center;
+      width:95%;  
+        
+    }   
+    
+    header{
+        top:10px;
+        width:95%;
+        }
+    
+}

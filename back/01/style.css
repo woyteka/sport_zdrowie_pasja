@@ -424,39 +424,13 @@ padding-left:10px;
 }
 
 .box_button{
-    position: relative;
-    left:15%;
-
-
+    
 }
 
 .button{
-   display: flex;
-    flex-direction: row;
-    cursor: pointer;
-}
-
-.button .txt-button{
-  color:white;
-  padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 3px;
-  
-}
-
-.button .txt-button img{
+    color:white;
     
 }
-
-.button .txt-button:hover{
-    background-color:white;
-    color:#181C20;
-    
-}
-
-
-
-
 
 
 
