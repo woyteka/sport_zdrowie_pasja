@@ -18,7 +18,7 @@ Lato:300,400,400i,700,900
 
 /* -----ZMIENNA BORDER SOLID WHITE ----------------------- */
  :root{
---obramowanie:  white ;
+--obramowanie:   white ;
 
 }
 
@@ -135,6 +135,7 @@ header{
 
 
 .container_inside{
+    overflow: hidden;
     border:var(--obramowanie);
        display: flex;
   flex-direction: column;
@@ -151,30 +152,98 @@ header{
 
 
 /* ----------    OKRĘGI RUCHOME     ------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
 
+
+
+
+
+
+/* ----------    OKRĘGI DUZY     ------------------------- */
 .big_circle{
     position: absolute;
-    top:20%;
-    left:36%;
+    top:18%;
+    right:33%;
     border-radius:50%;
     border: dotted;
     border-color: white;
     width:70vh;
     height: 70vh;
-    opacity: 0.3;
+    opacity: 0.1;
+}
+
+
+/* ----------    OKRĘG MALY     ------------------------- */
+
+
+.box-small-circle{
+    opacity: 0.5;
+    color:red;
+    
 }
 
 .small_circle{
     position: absolute;
     top:25%;
-    left:61%;
+    right:32%;
     border-radius:50%;
     border: dotted;
     border-color: white;
     width:15vh;
     height: 15vh;
-    opacity: 0.3;
+  
 }
+
+
+
+.small-circle-numer p{
+    font-family: 'Lato';
+    font-weight: 800;
+    color:white;
+    font-size: 11vh;
+    opacity: 1;
+   
+}
+
+
+/* ----------    LINIE BOCZNE     ------------------------- */
+
+
+
+
+
+.linia_lewa{
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.1;
+    height:1px;
+    left:-45%;
+    top:60%;
+    background-color: white;
+    width:1000px;
+}
+
+
+
+.linia_prawa{
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.1;
+    height:1px;
+    left:65%;
+    top:45%;
+    background-color: white;
+    width:400px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -348,6 +417,18 @@ padding-left:10px;
 
 
 .one_row_4{
+    
+     display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box_button{
+    
+}
+
+.button{
+    color:white;
     
 }
 
