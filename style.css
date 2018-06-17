@@ -11,7 +11,7 @@ Lato:300,400,400i,700,900
 *{
     margin:0;
     padding:0;
-   
+  
 }
 
 
@@ -29,7 +29,7 @@ Lato:300,400,400i,700,900
     height:100vh;
 
     display: flex;
-  overflow: hidden;
+  overflow:hidden;
     justify-content: center;
     background-image:url(img/tlo_strony.jpg);
     background-size:cover;
@@ -40,7 +40,7 @@ Lato:300,400,400i,700,900
     width:80%;
     margin-top:100px;
     height:100vh;
- overflow: hidden;
+ 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,7 +135,7 @@ header{
 
 
 .container_inside{
-    overflow: hidden;
+   
     border:var(--obramowanie);
        display: flex;
   flex-direction: column;
@@ -228,7 +228,7 @@ header{
 
 .linia_prawa{
     position: absolute;
-    overflow: hidden;
+    overflow:hidden;
     opacity: 0.1;
     height:1px;
     left:65%;
@@ -281,6 +281,7 @@ header{
 
 
 .one_row_1{
+     z-index: 2;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -294,6 +295,7 @@ header{
 
 
 .box_zpasji{
+     
   position: relative;
     left:-100px;
 padding-left:10px;
@@ -330,6 +332,7 @@ padding-left:10px;
     font-size: 8vh;
     box-sizing: border-box;
     line-height: 200%;
+     z-index: 2;
     
 }
 
@@ -348,6 +351,7 @@ padding-left:10px;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    z-index: 1;
  
     
     
@@ -356,18 +360,39 @@ padding-left:10px;
 .box_sportu{
   position: relative;
       left:30px;
-     
+   
     
     
   
 }
 
 
+/* ------------------------------------------------------------------- */
+/* ---------------------  ZDJECIE GLOWNA   ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+.photo-glowna-strona{
+    width:40%;
+    position: absolute;
+    top:-110px;
+    z-index: -10;
+}
+
+
+
+
+
+
+
+
+
+
 .txt_sportu{
         color: white;
     font-size:22vh;
     padding: -10px;
-    
+     
     
     
 }
@@ -391,9 +416,11 @@ padding-left:10px;
 }
 
 .box_tresc{
+    z-index: 1;
     position: relative;
     top:-18px;
     left:70px;
+    width:50%;
 }
 
 
@@ -417,7 +444,7 @@ padding-left:10px;
 
 
 .one_row_4{
-    
+     z-index: 1;
      display: flex;
     justify-content: center;
     flex-direction: row;
