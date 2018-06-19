@@ -281,6 +281,7 @@ header{
 
 
 .one_row_1{
+    
      z-index: 2;
     display: flex;
     flex-direction: row;
@@ -295,9 +296,11 @@ header{
 
 
 .box_zpasji{
-     
+    opacity: 0;
+     overflow: hidden;
   position: relative;
     left:-100px;
+   
 padding-left:10px;
     padding-right: 10px;
     padding-top: 20px;
@@ -317,7 +320,7 @@ padding-left:10px;
 
 
 .txt_zpasji{
-    
+      opacity: 0;
     position: relative;
     top:-65%;
 }
@@ -326,6 +329,7 @@ padding-left:10px;
 
 
 .box_do{
+      opacity: 0;
     position: relative;
      left:-100px;
    color: white;
@@ -358,6 +362,7 @@ padding-left:10px;
 }
 
 .box_sportu{
+      opacity: 0;
   position: relative;
       left:30px;
    
@@ -373,6 +378,7 @@ padding-left:10px;
 
 
 .photo-glowna-strona{
+    opacity: 1;
     width:40%;
     position: absolute;
     top:-110px;
@@ -389,6 +395,7 @@ padding-left:10px;
 
 
 .txt_sportu{
+         
         color: white;
     font-size:22vh;
     padding: -10px;
@@ -425,6 +432,7 @@ padding-left:10px;
 
 
 .txt_tresc{
+    opacity: 0;
     text-align: left;
     font-weight: 500; 
     font-size:2vh;
@@ -451,6 +459,7 @@ padding-left:10px;
 }
 
 .box_button{
+    opacity: 0;
     position: relative;
     left:15%;
 
