@@ -1,9 +1,21 @@
 $(function(){
-    $(".dbox_zpasji").animate({width:"0px" });
+
+         $(".box_zpasji").animate({opacity:0 }); 
+   $(".box_zpasji").animate({opacity:1 },100);
+          $(".txt_zpasji").animate({opacity:0 }); 
+     $(".txt_zpasji").animate({opacity:1 },200);
     
-    $(".dbox_zpasji").animate({width:"100px"});
+          $(".box_do").animate({opacity:0 },500); 
+     $(".box_do").animate({opacity:1 },500);
+    
+             $(".box_sportu").animate({opacity:0 },800); 
+     $(".box_sportu").animate({opacity:1 },800);
     
     
     
-    $(".dtxt_zpasji").animate({left:"-1px"},1000);
+              $(".txt_tresc").animate({opacity:0 },1000); 
+     $(".txt_tresc").animate({opacity:1 },1000);
+    
+              $(".box_button").animate({opacity:0 },1000); 
+     $(".box_button").animate({opacity:1 },1000);
 })
