@@ -317,7 +317,7 @@ padding-left:10px;
      color:#181C20;
      font-family: 'Lato';
     font-weight: 900; 
-    font-size: 11.8vh;
+    font-size: 11vh;
     box-sizing:content-box;
 }
 
@@ -325,7 +325,7 @@ padding-left:10px;
 .txt_zpasji{
       opacity: 0;
     position: relative;
-    top:-65%;
+    top:-62%;
 }
 
 
