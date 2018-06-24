@@ -27,7 +27,7 @@ Lato:300,400,400i,700,900
 .container_caly{
     width:100%;
     height:100vh;
-
+z-index: -10;
     display: flex;
   overflow:hidden;
     justify-content: center;
@@ -135,7 +135,7 @@ header{
 
 
 .container_inside{
-   
+ 
     border:var(--obramowanie);
        display: flex;
   flex-direction: column;
@@ -303,7 +303,7 @@ header{
      overflow: hidden;
   position: relative;
     left:-100px;
-   
+    z-index: 10;
 padding-left:10px;
     padding-right: 10px;
     padding-top: 20px;
@@ -323,6 +323,7 @@ padding-left:10px;
 
 
 .txt_zpasji{
+   
       opacity: 0;
     position: relative;
     top:-62%;
@@ -365,7 +366,8 @@ padding-left:10px;
 }
 
 .box_sportu{
-      opacity: 0;
+    
+      opacity: 1;
   position: relative;
       left:30px;
    
@@ -382,10 +384,12 @@ padding-left:10px;
 
 .photo-glowna-strona{
     opacity: 1;
-    width:40%;
+    width:20%;
     position: absolute;
-    top:-110px;
-    z-index: -10;
+    top:110px;
+    left:600px;
+    z-index: 0;
+  
 }
 
 
@@ -398,7 +402,8 @@ padding-left:10px;
 
 
 .txt_sportu{
-         
+    z-index: 6;
+             opacity: 0;
         color: white;
     font-size:22vh;
     padding: -10px;

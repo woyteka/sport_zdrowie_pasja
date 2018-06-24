@@ -1,0 +1,271 @@
+
+
+
+
+
+
+
+.container_inside_witam{
+   
+    border:var(--obramowanie);
+       display: flex;
+  flex-direction: column;
+     font-family: 'Lato';
+    font-weight: 900; 
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 60px;
+   margin-left: -700px;
+    text-align: center;
+        
+
+}
+
+/* ----------    OKRĘGI DUZY     ------------------------- */
+.big_circle{
+    position: absolute;
+    top:18%;
+    right:33%;
+    border-radius:50%;
+    border: dotted;
+    border-color: white;
+    width:70vh;
+    height: 70vh;
+    opacity: 0.1;
+}
+
+
+/* ----------    OKRĘG MALY     ------------------------- */
+
+
+.box-small-circle{
+    opacity: 0.5;
+    color:red;
+   
+    
+}
+
+.small_circle{
+  
+    position: absolute;
+    top:25%;
+    right:32%;
+    border-radius:50%;
+    border: dotted;
+    border-color: white;
+    width:15vh;
+    height: 15vh;
+  
+}
+
+
+
+.small-circle-numer p{
+    font-family: 'Lato';
+    font-weight: 800;
+    color:white;
+    font-size: 11vh;
+    opacity: 1;
+    
+   
+}
+
+
+/* ----------    LINIE BOCZNE     ------------------------- */
+
+
+
+
+
+.linia_lewa{
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.1;
+    height:1px;
+    left:-45%;
+    top:60%;
+    background-color: white;
+    width:1000px;
+}
+
+
+
+.linia_prawa{
+    position: absolute;
+    overflow:hidden;
+    opacity: 0.1;
+    height:1px;
+    left:65%;
+    top:45%;
+    background-color: white;
+    width:400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------TREŚCI ZAWARTOŚĆ---------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* ---------------------  Z PASJI DO   ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+
+.two_row_1{
+    
+     z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   height:40px;
+    
+ 
+    
+    
+}
+
+
+
+.box_zpasji{
+    opacity: 0;
+     overflow: hidden;
+  position: relative;
+    left:-100px;
+   
+padding-left:10px;
+    padding-right: 10px;
+    padding-top: 20px;
+  
+    
+   
+    height:8vh;
+    width:40vh;
+    
+    background-color: white;
+     color:#181C20;
+     font-family: 'Lato';
+    font-weight: 900; 
+    font-size: 11vh;
+    box-sizing:content-box;
+}
+
+
+.txt_zpasji{
+      opacity: 0;
+    position: relative;
+    top:-62%;
+}
+
+
+
+
+.box_do{
+      opacity: 0;
+    position: relative;
+     left:-100px;
+   color: white;
+    font-size: 8vh;
+    box-sizing: border-box;
+    line-height: 200%;
+     z-index: 2;
+    
+}
+
+.txt_do{
+    position: relative;
+}
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* --------------------- BUTTON ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+
+
+.one_row_4{
+     z-index: 1;
+     display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box_button-witam{
+    opacity: 1;
+    position: relative;
+    left:15%;
+
+
+}
+
+.button-witam{
+   display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.button-witam .txt-button-witam{
+  color:white;
+  padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+  
+}
+
+.button-witam .txt-button-witam img{
+    
+}
+
+.button-witam .txt-button-witam:hover{
+    background-color:white;
+    color:#181C20;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -52,7 +52,9 @@
    
     
     .one_row_1{
-        margin-top:-120px;
+        position: relative;
+   top:-50px;
+        
     }  
     
     
@@ -81,6 +83,7 @@
     
     .box_sportu{
   position: relative;
+        top:-50px;
       left:-30px;
      
       
@@ -99,7 +102,7 @@
     
     .box_tresc{
         z-index: 1;
-        top:1px;
+        top:-50px;
     left:-8px;
         width:91%;
         
@@ -125,7 +128,7 @@
     
     
     .box_button{
-        top:20px;
+        top:-20px;
        left:-60px; 
         
         
@@ -422,6 +425,7 @@
     
     
     .box_zpasji{
+        z-index: 5;
         top:-26px;
              padding-top: 40px;
         
@@ -446,6 +450,26 @@
     .box_sportu{
         margin-left: 180px;
     }
+    
+    
+    
+    
+    
+    
+        /* ------------------------------------------------------------------- */
+/* ---------------------  ZDJECIE GLOWNA   ------------------------------- */
+/* ------------------------------------------------------------------- */
+    
+    .photo-glowna-strona{
+        position: absolute;
+        margin-top:350px;
+       z-index: 0;
+        left:900px;
+         width:20%;
+          
+    }
+    
+    
     
     
     

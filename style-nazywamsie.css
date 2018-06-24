@@ -1,0 +1,258 @@
+
+/* ------------------------------------------------------------------- */
+/* ---------------------  WITAM NAZYWAM SIE   ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+
+
+.two_row_1{
+    
+     z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   height:40px;
+    
+ 
+    
+    
+}
+
+
+.box_witam{
+    opacity: 1;
+     overflow: hidden;
+  position: relative;
+    left:-100px;
+    z-index: 10;
+padding-left:10px;
+    padding-right: 10px;
+    padding-top: 20px;
+  
+    
+   
+    height:8vh;
+    width:40vh;
+    
+    background-color: white;
+     color:#181C20;
+     font-family: 'Lato';
+    font-weight: 900; 
+    font-size: 11vh;
+    box-sizing:content-box;
+}
+
+
+.txt_witam{
+   
+      opacity: 1;
+    position: relative;
+    top:-62%;
+}
+
+
+
+
+.box_nazywamsie{
+      opacity: 1;
+    position: relative;
+     left:-100px;
+    top:30px;
+   color: white;
+    font-size: 4vh;
+    font-weight: 400; 
+    box-sizing: border-box;
+    line-height: 200%;
+     z-index: 2;
+    
+}
+
+.txt_nazywamsie{
+    position: relative;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* ---------------------   RAFAŁ   ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+
+
+.one_row_2{
+      /* border:var(--obramowanie);*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 1;
+ 
+    
+    
+}
+
+
+
+
+.box_rafal{
+    
+      opacity: 1;
+  position: relative;
+    top:10px;
+      left:-50px;
+   
+    
+    
+  
+}
+
+
+
+
+.txt_rafal{
+    z-index: 12;
+             opacity: 1;
+        color: white;
+    font-size:16vh;
+    padding: -10px;
+     
+    
+    
+}
+
+
+/* ------------------------------------------------------------------- */
+/* ---------------------   KENSIK   ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+.two_row_2a{
+          /* border:var(--obramowanie);*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 1;
+    
+}
+
+
+.box_kensik{
+    
+      opacity: 1;
+  position: relative;
+      left:30px;
+    top:-30px;
+   
+    
+    
+  
+}
+
+
+
+
+.txt_kensik{
+    z-index: 12;
+             opacity: 1;
+        color: white;
+    font-size:16vh;
+    padding: -10px;
+     
+    
+    
+}
+
+
+/* ------------------------------------------------------------------- */
+/* ---------------------  TRESC OPIS   ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+
+.two_row_3{
+      /* border:var(--obramowanie);*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ 
+    
+    
+}
+
+.box_tresc_rafal{
+    z-index: 1;
+    position: relative;
+    top:-48px;
+    left:70px;
+    width:50%;
+
+}
+
+
+.txt_tresc_rafal{
+    opacity: 1;
+    text-align: left;
+    font-weight: 500; 
+    font-size:2vh;
+    color:white;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* --------------------- BUTTON ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+
+
+
+
+
+.two_row_4{
+     z-index: 1;
+     display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box_button{
+    opacity: 0;
+    position: relative;
+    left:15%;
+
+
+}
+
+.button{
+   display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.button .txt-button{
+  color:white;
+  padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+  
+}
+
+.button .txt-button img{
+    
+}
+
+.button .txt-button:hover{
+    background-color:white;
+    color:#181C20;
+    
+}
+
+
+
+
+
+
+
+
