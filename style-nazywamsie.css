@@ -21,7 +21,7 @@
 
 
 .box_witam{
-    opacity: 1;
+    opacity: 0;
      overflow: hidden;
   position: relative;
     left:-100px;
@@ -69,6 +69,7 @@ padding-left:10px;
 }
 
 .txt_nazywamsie{
+     opacity: 0;
     position: relative;
 }
 
@@ -112,7 +113,7 @@ padding-left:10px;
 
 .txt_rafal{
     z-index: 12;
-             opacity: 1;
+             opacity: 0;
         color: white;
     font-size:16vh;
     padding: -10px;
@@ -139,7 +140,7 @@ padding-left:10px;
 
 .box_kensik{
     
-      opacity: 1;
+      opacity: 0;
   position: relative;
       left:30px;
     top:-30px;
@@ -191,7 +192,7 @@ padding-left:10px;
 
 
 .txt_tresc_rafal{
-    opacity: 1;
+    opacity: 0;
     text-align: left;
     font-weight: 500; 
     font-size:2vh;
