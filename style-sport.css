@@ -1,0 +1,161 @@
+.htree_row_2{
+    
+     z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   height:40px;
+    
+ 
+    
+    
+}
+
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* ---------------------  SPORTU   ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+.one_row_2{
+      /* border:var(--obramowanie);*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 1;
+ 
+    
+    
+}
+
+.box_sport{
+    
+      opacity: 1;
+  position: relative;
+    top:-80px;
+      left:-80px;
+   
+    
+    
+  
+}
+
+
+.txt_sport{
+  font-size: 16vh;
+    color:white;
+    
+    
+}
+
+
+/* ------------------------------------------------------------------- */
+/* ---------------------  ZDJECIE GLOWNA   ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+.photo-glowna-strona{
+    opacity: 1;
+    width:20%;
+    position: absolute;
+    top:110px;
+    left:600px;
+    z-index: 0;
+  
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* ---------------------  TRESC OPIS   ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+
+.three_row_3{
+      /* border:var(--obramowanie);*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ 
+    
+    
+}
+
+.box_tresc_sport{
+    z-index: 1;
+    position: relative;
+    top:-88px;
+    left:-20px;
+    width:40%;
+}
+
+
+.txt_tresc_sport{
+    opacity: 1;
+    text-align: left;
+    font-weight: 500; 
+    font-size:2vh;
+    color:white;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+/* --------------------- BUTTON ------------------------------- */
+/* ------------------------------------------------------------------- */
+
+
+
+
+
+
+
+.three_row_4{
+     z-index: 1;
+     display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    position: relative;
+    left:130px;
+    top:-75px;
+}
+
+.box_button{
+    opacity: 1;
+    position: relative;
+    left:15%;
+
+
+}
+
+.button{
+   display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.button .txt-button{
+  color:white;
+  padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+  
+}
+
+.button .txt-button img{
+    
+}
+
+.button .txt-button:hover{
+    background-color:white;
+    color:#181C20;
+    
+}
